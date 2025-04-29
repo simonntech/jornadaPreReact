@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual - Estudo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Virtual - Estudo</h1>
+    </header>
+
+    <main>
+        <form id="formLivro">
+            <input type="text" class="titulo" id="titulo" placeholder="Título" required>
+            <input type="text" id="autor" placeholder="Autor" required>
+            <input type="number" id="ano" placeholder="Ano" required>
+            <button type="submit">Adicionar Livro</button>
+        </form>
+
+        <button id="ordenar">Ordenar por Título</button>
+
+        <h2>Livros</h2>
+        <div class="contLista">
+            <input type="text" id="pesquisa" placeholder="Pesquisar livro...">
+            <ul id="listaLivros"></ul>
+        </div>
+        
+
+    </main>
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>

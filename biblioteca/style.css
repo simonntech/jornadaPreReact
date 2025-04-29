@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: tan;
+    text-align: center;
+    font-weight: 200;
+}
+main {
+    padding: 14px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+input {
+    border: 1px solid tan;
+    padding: 4px;
+    text-align: center;
+    margin: 8px;
+}
+
+.titulo {
+    width: 400px;
+}
+
+button {
+    background-color: tan;
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(173, 134, 82);
+}
+
+h2 {
+    text-align: center;
+}
+
+.contLista {
+    background-color: cornsilk;
+    padding: 8px;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid saddlebrown;
+    padding: 4px;
+}
