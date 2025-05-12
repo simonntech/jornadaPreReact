@@ -10,6 +10,7 @@
     <h1 class="bg-black text-white p-3">Exercícios JS</h1>
     <h2 class="p-3">Básico</h2>
 
+    <!-- Tabuada -->
     <div class="card m-3">
         <div class="card-body">
             <h4>01 - Tabuada</h4>
@@ -22,15 +23,58 @@
         </div>
     </div>
 
+    <!-- Contador -->
     <div class="card m-3">
         <div class="card-body">
             <h4>02 - Contador</h4>
             <div class="card-text">
-                <button class="btn btn-dark mx-3" id="btnTabuada">Contar de 1 até 100, de 5 em 5</button>
+                <button class="btn btn-dark mx-3" id="btnContador">Contar de 1 até 101, de 5 em 5</button>
                 <div class="resultado_contador"></div>
             </div>
         </div>
     </div>
+
+    <!-- Par ou Ímpar -->
+    <div class="card m-3">
+        <div class="card-body">
+            <h4>03 - Par ou Ímpar</h4>
+            <div class="card-text">
+                <p>Digite um valor:</p>
+                <input type="number" id="valorpoi">
+                <button class="btn btn-dark mx-3" id="btnPoI">Par ou Ímpar?</button>
+                <div class="resultado_poi"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Soma de sequência de números -->
+    <div class="card m-3">
+        <div class="card-body">
+            <h4>04 - Soma de números</h4>
+            <div class="card-text">
+                <p>Digite um valor:</p>
+                <input type="number" id="valorSomaTot" >
+                <button class="btn btn-success mx-1" id="btnAddSoma"> + Adicionar</button>
+                <button class="btn btn-dark mx-1" id="btnResSoma"> Finalizar </button>
+                <div class="mt-3" id="resultado_somaTot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Maior dos 3 números -->
+    <div class="card m-3">
+        <div class="card-body">
+            <h4>05 - Qual dos 3 números é o maior? </h4>
+            <div class="card-text">
+                <p>Digite um valor:</p>
+                <input type="number" id="valorSomaTot" >
+                <button class="btn btn-success mx-1" id="btnAddSoma"> + Adicionar</button>
+                <button class="btn btn-dark mx-1" id="btnResSoma"> Finalizar </button>
+                <div class="mt-3" id="resultado_somaTot"></div>
+            </div>
+        </div>
+    </div>
+
     <script type="module" src="script.js"></script>
 </body>
 </html>
