@@ -1,0 +1,19 @@
+.list-group {
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.area-senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0 !important;
+}
