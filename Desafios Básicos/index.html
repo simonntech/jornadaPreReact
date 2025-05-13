@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Exercícios Básicos JS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
@@ -61,16 +61,45 @@
         </div>
     </div>
 
-    <!-- Maior dos 3 números -->
+    <!-- informações números -->
     <div class="card m-3">
         <div class="card-body">
-            <h4>05 - Qual dos 3 números é o maior? </h4>
+            <h4>05 - Informações de números </h4>
             <div class="card-text">
-                <p>Digite um valor:</p>
-                <input type="number" id="valorSomaTot" >
-                <button class="btn btn-success mx-1" id="btnAddSoma"> + Adicionar</button>
-                <button class="btn btn-dark mx-1" id="btnResSoma"> Finalizar </button>
-                <div class="mt-3" id="resultado_somaTot"></div>
+                <p>Digite vários números entre 1 e 100:</p>
+                <input type="number" id="inputInfoN" max="100">
+                <button class="btn btn-success mx-1" id="btnAddInfo"> + Adicionar</button>
+                <button class="btn btn-dark mx-1" id="btnAnalisar"> Analisar </button>
+                <div class="mt-3" id="resultado_info"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- string Reversa -->
+    <div class="card m-3">
+        <div class="card-body">
+            <h4>06 - Texto Invertido </h4>
+            <div class="card-text">
+                <p>Escreva qualquer coisa:</p>
+                <input type="text" id="inputNome">
+                <button class="btn btn-dark mx-1" id="btnReverter"> Gerar </button>
+                <div class="mt-3" id="resultado_Reverter"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calculadora Simples -->
+    <div class="card m-3">
+        <div class="card-body">
+            <h4>07 - Calculadora Simples</h4>
+            <div class="card-text">
+                <p><input type="number" id="inputPrimeiroN" placeholder="Primeiro Valor"></p>
+                <p><input type="number" id="inputSegundoN" placeholder="Segundo Valor"></p>
+                <button class="btn btn-dark mx-1" id="btnAdi"> Somar + </button>
+                <button class="btn btn-dark mx-1" id="btnSub"> Subtrair - </button>
+                <button class="btn btn-dark mx-1" id="btnMul"> Multiplicar X </button>
+                <button class="btn btn-dark mx-1" id="btnDiv"> Dividir / </button>
+                <div class="mt-3" id="resultadoCalculadora"></div>
             </div>
         </div>
     </div>
