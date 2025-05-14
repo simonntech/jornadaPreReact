@@ -1,10 +1,11 @@
 .list-group {
-    width: 45vw;
+    width: 65vw;
     margin: 0 auto;
 }
 
 .area-senha {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
